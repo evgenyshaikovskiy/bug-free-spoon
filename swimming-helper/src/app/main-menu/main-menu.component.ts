@@ -38,6 +38,6 @@ export class MainMenuComponent {
 
   public onStopwatchClick() {
     this.app.mainMenuVisibility = false;
-
+    this.app.stopWatchPageVisibility = true;
   }
 }

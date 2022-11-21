@@ -6,3 +6,12 @@
 <app-account-page [style.display]="accountVisibility ? '' : 'None'" [app]="getThis()" [user]="injectUser()">
 </app-account-page>
 <app-video-page [style.display]="videoVisibility ? '' : 'None'" [app]="getThis()"></app-video-page>
+<app-search-page [style.display]="searchPageVisibility ? '' : 'None'" [app]="getThis()"></app-search-page>
+<app-concrete-training-search [style.display]="searchConcreteTrainingVisibility ? '' : 'None'" [app]="getThis()">
+</app-concrete-training-search>
+<app-style-of-swimming-filter [style.display]="searchStyleOfTrainingFilterVisibility ? '' : 'None'" [app]="getThis()">
+</app-style-of-swimming-filter>
+<app-durability-filter [style.display]="searchDurabilityOfTrainingFilterVisibility ? '' : 'None'" [app]="getThis()">
+</app-durability-filter>
+<app-stopwatch-timer [style.display]="stopWatchPageVisibility ? '' : 'None'" [app]="getThis()">
+</app-stopwatch-timer>

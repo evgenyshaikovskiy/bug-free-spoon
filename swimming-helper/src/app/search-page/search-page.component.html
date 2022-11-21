@@ -1,0 +1,25 @@
+<div class="search-page-wrapper">
+  <div class="search-page-title">Поиск тренировок</div>
+  <div class="select-btns-container">
+    <button class="select-btn" [ngStyle]="{
+      'backgroundColor': firstButtonState ? '#ffffff' : '#ffc0cb',
+      'color': firstButtonState ? '#ffc0cb': '#ffffff',
+      'border': firstButtonState ? '2px solid #ffc0cb' : '0px'
+    }" (click)="onTrainSkills()">&#x2022;
+      Улучшение навыков</button>
+    <button class="select-btn" [ngStyle]="{
+      'backgroundColor': secondButtonState ? '#ffffff' : '#ffc0cb',
+      'color': secondButtonState ? '#ffc0cb': '#ffffff',
+      'border': secondButtonState ? '2px solid #ffc0cb' : '0px'
+    }" (click)="onPreferredStyle()">&#x2022; Выбор желаемого стиля плавания</button>
+    <button class="select-btn" [ngStyle]="{
+      'backgroundColor': thirdButtonState ? '#ffffff' : '#ffc0cb',
+      'color': thirdButtonState ? '#ffc0cb': '#ffffff',
+      'border': thirdButtonState ? '2px solid #ffc0cb' : '0px'
+    }" (click)="onDurabilityClick()">&#x2022; Выбор длительности тренировки</button>
+  </div>
+  <div class="btm-btns">
+    <button class="apply-filters-btn" (click)="onApplyFilters()">Применить фильтры поиска</button>
+    <button class="go-back-to-menu-btn">Вернуться в главное меню</button>
+  </div>
+</div>

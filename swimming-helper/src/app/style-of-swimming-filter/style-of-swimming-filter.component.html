@@ -1,0 +1,13 @@
+<div class="filter-wrapper">
+  <div class="filter-title">Поиск необходимой тренировки</div>
+  <button class="select-filter-btn" [ngStyle]="{
+    'backgroundColor': '#ffffff',
+    'color': '#ffc0cb',
+    'border': '2px solid #ffc0cb'
+  }">&#x2022;
+    Выбор длительности тренировки</button>
+  <p class="input-text-filter">Длина тренировки</p>
+  <input class='input-filter' placeholder="Введите длину тренировки" type="text">
+  <button class="apply-filter-btn">Применить фильтры поиска</button>
+  <button class="go-back-btn" (click)="goBack()">Вернуться в меню поика</button>
+</div>

@@ -1,0 +1,33 @@
+.stopwatch-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.buttons {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.stopwatch-time {
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  color: rgb(228, 38, 69);
+}
+
+.stopwatch-image {
+  margin-top: 50px;
+}
+
+.start-btn, .stop-btn, .go-back-btn {
+  color: blueviolet;
+  background-color: pink;
+  width: 100px;
+  height: 50px;
+  margin-left: 10px;
+}

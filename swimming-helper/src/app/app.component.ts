@@ -9,13 +9,20 @@ import User from './models/user';
 export class AppComponent {
   public title = 'swimming-helper';
 
-  public firstScreenVisibility: boolean = true;
+  public searchFilters!: {highlightedBtnName: string, firstBtnName: string, secondBtnName: string, thirdBtnName: string};
+
+  public firstScreenVisibility: boolean = false;
   public signUpVisibility: boolean = false;
   public logInVisibility: boolean = false;
-  public mainMenuVisibility: boolean = false;
+  public mainMenuVisibility: boolean = true;
   public tableVisibility: boolean = false;
   public accountVisibility: boolean = false;
   public videoVisibility: boolean = false;
+  public searchPageVisibility: boolean = false;
+  public searchConcreteTrainingVisibility: boolean = false;
+  public searchStyleOfTrainingFilterVisibility: boolean = false;
+  public searchDurabilityOfTrainingFilterVisibility: boolean = false;
+  public stopWatchPageVisibility: boolean = false;
 
   private user: User = new User('Сергей', 'adsad', 'dasdsa', 'Профессионал', 'Брасс', 'КМС', [], [], 'Повышение скорости');
 

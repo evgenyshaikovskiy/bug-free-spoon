@@ -1,0 +1,31 @@
+<div class="search-page-wrapper">
+  <div class="search-page-title">Поиск необходимой тренировки</div>
+  <button class="select-btn" [ngStyle]="{
+    'backgroundColor': '#ffffff',
+    'color': '#ffc0cb',
+    'border': '2px solid #ffc0cb'
+  }">&#x2022;
+    Улучшение навыков</button>
+  <div class="select-btns-container">
+    <button class="select-btn" [ngStyle]="{
+      'backgroundColor': firstButtonStateConcrete ? '#ffffff' : '#ffc0cb',
+      'color': firstButtonStateConcrete ? '#ffc0cb': '#ffffff',
+      'border': firstButtonStateConcrete ? '2px solid #ffc0cb' : '0px'
+    }" (click)="onSpeedClick()">&#x2022;
+      Повышение скорости</button>
+    <button class="select-btn" [ngStyle]="{
+      'backgroundColor': secondButtonStateConcrete ? '#ffffff' : '#ffc0cb',
+      'color': secondButtonStateConcrete ? '#ffc0cb': '#ffffff',
+      'border': secondButtonStateConcrete ? '2px solid #ffc0cb' : '0px'
+    }" (click)="onPerfectingTechnique()">&#x2022; Совершенствование техник различных стилей и видов</button>
+    <button class="select-btn" [ngStyle]="{
+      'backgroundColor': thirdButtonStateConcrete ? '#ffffff' : '#ffc0cb',
+      'color': thirdButtonStateConcrete ? '#ffc0cb': '#ffffff',
+      'border': thirdButtonStateConcrete ? '2px solid #ffc0cb' : '0px'
+    }" (click)="onPracticing()">&#x2022; Улучшение выносливости</button>
+  </div>
+  <div class="btm-btns">
+    <button class="apply-filters-btn">Применить фильтры поиска</button>
+    <button class="go-back-to-menu-btn" (click)="goBack()">Вернуться в главное меню</button>
+  </div>
+</div>

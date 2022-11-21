@@ -1,0 +1,10 @@
+<div class="stopwatch-wrapper">
+  <div class="stopwatch-time">{{counter}} milliseconds</div>
+  <img class="stopwatch-image" height="250px" width="300px"
+    src="https://img2.freepng.ru/20180206/lkw/kisspng-egg-timer-digital-clock-clip-art-stopwatch-image-5a795178a51409.9886776315179001526762.jpg">
+  <div class="buttons">
+    <button class="start-btn" (click)="startTimer()">Старт</button>
+    <button class="stop-btn" (click)="clearTimer()">Стоп</button>
+    <button class="go-back-btn" (click)="goBack()">Назад</button>
+  </div>
+</div>

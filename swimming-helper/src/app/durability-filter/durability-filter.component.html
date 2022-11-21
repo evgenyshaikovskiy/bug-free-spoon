@@ -1,0 +1,13 @@
+<div class="filter-wrapper">
+  <div class="filter-title">Поиск необходимой тренировки</div>
+  <button class="select-filter-btn" [ngStyle]="{
+    'backgroundColor': '#ffffff',
+    'color': '#ffc0cb',
+    'border': '2px solid #ffc0cb'
+  }">&#x2022;
+    Выбор желаемого стиля плавания</button>
+  <p class="input-text-filter">Стиль плавания</p>
+  <input class='input-filter' placeholder="Введите стиль плавания" type="text">
+  <button class="apply-filter-btn">Применить фильтры поиска</button>
+  <button class="go-back-btn" (click)="goBack()">Вернуться в меню поика</button>
+</div>
