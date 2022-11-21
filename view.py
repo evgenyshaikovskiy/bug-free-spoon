@@ -5,10 +5,12 @@ import time
 from kivy.config import Config
 from kivy.lang import Builder
 
+from windows.login_window import LoginWindow
+
 
 Config.set('graphics', 'resizable', '0')
-Config.set('graphics', 'width', '480')
-Config.set('graphics', 'height', '720')
+Config.set('graphics', 'width', '800')
+Config.set('graphics', 'height', '1280')
 
 
 class View(MDApp):
@@ -18,6 +20,7 @@ class View(MDApp):
         self.screens = ScreenManager()
         
         # inject screens
+        self.screens.add_widget(LoginWindow(name='Login Window', controller=self.controller))
 
     def set_current_screen_name(self, name):
         if name == 'stop':
