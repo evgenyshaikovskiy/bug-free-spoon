@@ -1,0 +1,36 @@
+.table-of-ranks-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.table-of-ranks-title {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  font-weight: 700;
+}
+
+.img {
+  height: 800px;
+  width: 800px;
+}
+
+.table-picture-back-btn {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+  color: rgb(131, 17, 193);
+  height: 50px;
+  width: 150px;
+  background-color: rgb(223, 77, 145);
+  border-radius: 5px;
+  border: 0px;
+  font-weight: 500;
+  cursor: pointer;
+}

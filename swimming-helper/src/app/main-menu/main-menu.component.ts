@@ -16,11 +16,13 @@ export class MainMenuComponent {
 
   public onAccountClick() {
     this.app.mainMenuVisibility = false;
+    this.app.accountVisibility = true;
 
   }
 
   public onTableClick() {
     this.app.mainMenuVisibility = false;
+    this.app.tableVisibility = true;
 
   }
 

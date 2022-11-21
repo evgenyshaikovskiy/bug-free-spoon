@@ -1,0 +1,34 @@
+<div class="ac-pg-wrapper">
+  <div class="ac-pg-title">Аккаунт</div>
+  <div class="ac-pg-welcome-message">Здравствуйте, {{ user.name }}!</div>
+  <div class="ac-pg-info-container">
+    <div class="ac-pg-param-title">Уровень подготовки</div>
+    <div class="ac-pg-param">{{ user.level }}</div>
+  </div>
+  <div class="ac-pg-info-container">
+    <div class="ac-pg-param-title">Цель использования тренировок</div>
+    <div class="ac-pg-param">{{ user.goal }}</div>
+  </div>
+  <div class="ac-pg-info-container">
+    <div class="ac-pg-param-title">Текущий разряд</div>
+    <div class="ac-pg-param">{{ user.rank }}</div>
+  </div>
+  <div class="ac-pg-info-container-list">
+    <div class="ac-pg-param-title">Личные достижения</div>
+    <div class="ac-pg-column">
+      <div class="ac-pg-param-list">Список</div>
+      <button class="ac-pg-btn">Развернуть личные достижения</button>
+    </div>
+  </div>
+  <div class="ac-pg-info-container-list">
+    <div class="ac-pg-param-title">Личные достижения</div>
+    <div class="ac-pg-column">
+      <div class="ac-pg-param-list">Список</div>
+      <button class="ac-pg-btn">Развернуть пройденные тренировки</button>
+    </div>
+  </div>
+  <div class="right-align">
+    <img class="home-btn" src="https://cdn4.iconfinder.com/data/icons/pictype-free-vector-icons/16/home-512.png"
+      (click)="onHomeClick()">
+  </div>
+</div>

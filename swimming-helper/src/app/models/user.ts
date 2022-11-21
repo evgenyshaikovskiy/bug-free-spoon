@@ -10,6 +10,7 @@ export class User {
   public rank: string;
   public trainings: Training[];
   public resultsOfTrainings: SwimmingResult[];
+  public goal: string;
 
   constructor(
     name: string,
@@ -19,7 +20,8 @@ export class User {
     preferredStyle: string,
     rank: string,
     trainings: Training[],
-    resultsOfTrainings: SwimmingResult[]
+    resultsOfTrainings: SwimmingResult[],
+    goal: string
   ) {
     this.name = name;
     this.password = password;
@@ -29,6 +31,7 @@ export class User {
     this.rank = rank;
     this.trainings = trainings;
     this.resultsOfTrainings = resultsOfTrainings;
+    this.goal = goal;
   }
 }
 
