@@ -1,0 +1,29 @@
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.video-title {
+  text-align: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.video-container {
+  align-items: center;
+}
+
+.back-btn {
+  width: 400px;
+  height: 70px;
+  border: 0px;
+  background-color: pink;
+  color: rgb(16, 33, 180);
+  font-size: x-large;
+  font-weight: 600;
+  cursor: pointer;
+}

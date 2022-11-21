@@ -28,7 +28,7 @@ export class MainMenuComponent {
 
   public onVideosClick() {
     this.app.mainMenuVisibility = false;
-
+    this.app.videoVisibility = true;
   }
 
   public onTrainingsClick() {

@@ -8,6 +8,7 @@ import { FirstScreenComponent } from './first-screen/first-screen.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
 import { TableOfRanksComponent } from './table-of-ranks/table-of-ranks.component';
 import { AccountPageComponent } from './account-page/account-page.component';
+import { VideoPageComponent } from './video-page/video-page.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AccountPageComponent } from './account-page/account-page.component';
     FirstScreenComponent,
     MainMenuComponent,
     TableOfRanksComponent,
-    AccountPageComponent
+    AccountPageComponent,
+    VideoPageComponent
   ],
   imports: [
     BrowserModule,

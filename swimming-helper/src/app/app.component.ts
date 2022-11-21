@@ -15,6 +15,7 @@ export class AppComponent {
   public mainMenuVisibility: boolean = false;
   public tableVisibility: boolean = false;
   public accountVisibility: boolean = false;
+  public videoVisibility: boolean = false;
 
   private user: User = new User('Сергей', 'adsad', 'dasdsa', 'Профессионал', 'Брасс', 'КМС', [], [], 'Повышение скорости');
 
