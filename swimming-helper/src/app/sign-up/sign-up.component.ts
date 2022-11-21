@@ -6,11 +6,11 @@ import { AppComponent } from '../app.component';
   templateUrl: './sign-up.component.html',
   styleUrls: ['./sign-up.component.css']
 })
-export class SignUpComponent implements OnInit {
+export class SignUpComponent {
   @Input('app') app!: AppComponent;
 
-  ngOnInit(): void {
-    console.log(this.app);
+  public onSignUpClick() {
+    this.app.signUpVisibility = false;
+    this.app.mainMenuVisibility = true;
   }
-
 }

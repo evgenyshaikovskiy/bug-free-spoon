@@ -19,6 +19,10 @@ export class FirstScreenComponent {
     this.app.logInVisibility = true;
   }
 
+  public onExitClick() {
+    this.app.firstScreenVisibility = false;
+  }
+
   private disableCurrentScreen() {
     this.app.firstScreenVisibility = false;
   }

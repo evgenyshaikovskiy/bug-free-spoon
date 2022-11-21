@@ -11,6 +11,6 @@ export class LogInComponent {
 
   public onLoginClick() {
     this.app.logInVisibility = false;
-    this.app.firstScreenVisibility = true;
+    this.app.mainMenuVisibility = true;
   }
 }

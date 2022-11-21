@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { FirstScreenComponent } from './first-screen/first-screen.component';
+import { MainMenuComponent } from './main-menu/main-menu.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SignUpComponent,
     LogInComponent,
-    FirstScreenComponent
+    FirstScreenComponent,
+    MainMenuComponent
   ],
   imports: [
     BrowserModule,

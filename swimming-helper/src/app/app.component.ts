@@ -11,6 +11,7 @@ export class AppComponent {
   public firstScreenVisibility: boolean = true;
   public signUpVisibility: boolean = false;
   public logInVisibility: boolean = false;
+  public mainMenuVisibility: boolean = false;
 
   public getThis(): AppComponent {
     return this;
