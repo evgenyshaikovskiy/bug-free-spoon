@@ -1,7 +1,20 @@
 <div class="video">
-  <div class="video-title">Видео для тренировки брасса:</div>
-  <div class="video-container">
+  <div class="video-title" (click)="clickBrasVideo()">Видео для тренировки брасса</div>
+  <div class="video-container" [style.display]="brasVideoVisibility ? '' : 'None'">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/jxrdLZ1iHTM" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+  <div class="video-title" (click)="clickButterflyVideo()">Видео для тренировки баттерфляя</div>
+  <div class="video-container" [style.display]="butterflyVideoVisibility ? '' : 'None'">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UotPDjHD3iU" title="YouTube video player"
+      frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen></iframe>
+  </div>
+
+  <div class="video-title" (click)="clickSwimmingVideo()">Видео для тренировки кроля</div>
+  <div class="video-containter" [style.display]="swimmingVideoVisibility ? '' : 'None'">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ylONyA4sN8s" title="YouTube video player"
       frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
       allowfullscreen></iframe>
   </div>

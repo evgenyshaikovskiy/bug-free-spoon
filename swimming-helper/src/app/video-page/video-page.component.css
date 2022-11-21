@@ -8,13 +8,19 @@
 .video-title {
   text-align: center;
   align-items: center;
-  font-size: x-large;
-  font-weight: 700;
+  font-size: medium;
+  font-weight: 600;
   margin-bottom: 50px;
+}
+
+.video-title:hover {
+  color:aqua;
+  cursor: pointer;
 }
 
 .video-container {
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .back-btn {
