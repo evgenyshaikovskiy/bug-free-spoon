@@ -1,1 +1,13 @@
-<p>main-menu works!</p>
+<div class="main-menu-wrapper">
+  <div class="main-menu-title">Главное меню</div>
+  <div class="btn-container">
+    <button class="menu-btn" (click)="onAccountClick()">Аккаунт</button>
+    <button class="menu-btn" (click)="onTableClick()">Таблица Разрядов</button>
+    <button class="menu-btn" (click)="onVideosClick()">Видеоролики</button>
+    <button class="menu-btn" (click)="onTrainingsClick()">Поиск тренировок</button>
+    <button class="menu-btn" (click)="onStopwatchClick()">Внесения времени прохождения дистанции</button>
+  </div>
+  <div class="exit-btn">
+    <button class="menu-btn" (click)="onExitClick()">Выйти</button>
+  </div>
+</div>
