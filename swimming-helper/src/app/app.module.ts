@@ -6,6 +6,8 @@ import { SignUpComponent } from './sign-up/sign-up.component';
 import { LogInComponent } from './log-in/log-in.component';
 import { FirstScreenComponent } from './first-screen/first-screen.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { TableOfRanksComponent } from './table-of-ranks/table-of-ranks.component';
+import { AccountPageComponent } from './account-page/account-page.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     SignUpComponent,
     LogInComponent,
     FirstScreenComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    TableOfRanksComponent,
+    AccountPageComponent
   ],
   imports: [
     BrowserModule,

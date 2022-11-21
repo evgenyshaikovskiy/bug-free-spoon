@@ -2,3 +2,6 @@
 <app-log-in [style.display]="logInVisibility ? '' : 'None'" [app]="getThis()"></app-log-in>
 <app-first-screen [style.display]="firstScreenVisibility ? '' : 'None'" [app]="getThis()"></app-first-screen>
 <app-main-menu [style.display]="mainMenuVisibility ? '' : 'None'" [app]="getThis()"></app-main-menu>
+<app-table-of-ranks [style.display]="tableVisibility ? '' : 'None'" [app]="getThis()"></app-table-of-ranks>
+<app-account-page [style.display]="accountVisibility ? '' : 'None'" [app]="getThis()" [user]="injectUser()">
+</app-account-page>
